@@ -1,8 +1,10 @@
 import React from 'react'
 import "./header.css"
 import CTA from './CTA'
-import ME from '../../assets/me-digital.svg'
 import Socials from './HeaderSocials'
+import Avatar from '../../assets/ReadyPlayerMe-Avatar (1).png'
+import SvgBg from '../../assets/digital-bg.svg'
+
 
 const Header = () => {
     return (
@@ -14,8 +16,9 @@ const Header = () => {
                 <CTA/>
                 <Socials/>
                 <div className="me">
-                    <img src={ME} alt="my digital picture."/>
+                    <img src={Avatar} alt="my digital 3D avatar."/>
                 </div>
+                <img src={SvgBg} className={"svg"} alt="svg background for avatar."/>
             </div>
             <a href="#contact" className="scroll__down">Scroll Down</a>
         </header>
