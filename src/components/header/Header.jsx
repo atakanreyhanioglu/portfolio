@@ -11,7 +11,7 @@ const Header = () => {
         <header>
             <div className="container header__container">
                 <h5>Hello I'm</h5>
-                <h1>Atakan Reyhanioglu</h1>
+                <h1>Atakan Reyhanioğlu</h1>
                 <h5 className="text-light">Fullstack Developer</h5>
                 <CTA/>
                 <Socials/>
@@ -19,8 +19,8 @@ const Header = () => {
                     <img src={Avatar} alt="my digital 3D avatar."/>
                 </div>
                 <img src={SvgBg} className={"svg"} alt="svg background for avatar."/>
+                <a href="#contact" className="scroll__down">Scroll Down</a>
             </div>
-            <a href="#contact" className="scroll__down">Scroll Down</a>
         </header>
     )
 }
