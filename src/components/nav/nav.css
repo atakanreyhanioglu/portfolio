@@ -21,3 +21,11 @@ nav a {
     color: var(--color-light);
     font-size: 1.1rem;
 }
+nav a:hover {
+    background: var(--color-bg-variant);
+    color: var(--color-white)
+}
+nav a.active {
+    background: var(--color-bg-variant);
+    color: var(--color-white)
+}
