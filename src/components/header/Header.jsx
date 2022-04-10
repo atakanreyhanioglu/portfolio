@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./header.css"
 import CTA from './CTA'
 import Socials from './HeaderSocials'
@@ -7,12 +7,13 @@ import SvgBg from '../../assets/digital-bg.svg'
 
 
 const Header = () => {
+
     return (
         <header id={"home"}>
             <div className="container header__container">
                 <h5>Hello I'm</h5>
                 <h1>Atakan Reyhanioğlu</h1>
-                <h5 className="text-light"><b>Curious</b> Fullstack Developer</h5>
+                <h5 className="text-light"><b>Curious</b> Developer</h5>
                 <CTA/>
                 <Socials/>
                 <div className="me">
