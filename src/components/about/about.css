@@ -7,12 +7,12 @@
 }
 .about__container {
     display: grid;
-    grid-template-columns: 35% 50%;
+    grid-template-columns: 1fr 1fr;
     gap: 15%;
     padding-top: 4%;
 }
 .about__me {
-    width: 100%;
+    width: 90%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     display: grid;
