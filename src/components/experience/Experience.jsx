@@ -26,8 +26,8 @@ import {
 const Experience = () => {
     return (
         <section id={"experience"}>
-            <h5>What Skills I Have</h5>
-            <h2>Badges</h2>
+            <h5>Skills I Have</h5>
+            <h2>Tech Badges</h2>
             <div className={"container experience__container"}>
                 <div className="experience__languages">
                     <h3>Languages</h3>
