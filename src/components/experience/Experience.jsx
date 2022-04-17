@@ -1,7 +1,8 @@
 import React from 'react'
 import "./experience.css"
-import {FaNodeJs} from "react-icons/fa";
+import {FaNodeJs, FaJava} from "react-icons/fa";
 import {
+    SiSpring,
     SiJavascript,
     SiTypescript,
     SiHtml5,
@@ -36,6 +37,13 @@ const Experience = () => {
                             <FaNodeJs className="experience-icon"/>
                             <div>
                                 <h4>Node.JS</h4>
+                                <small className="text-light">Experienced</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <FaJava className="experience-icon"/>
+                            <div>
+                                <h4>Java</h4>
                                 <small className="text-light">Experienced</small>
                             </div>
                         </article>
@@ -77,6 +85,13 @@ const Experience = () => {
                             <div>
                                 <h4>NestJS</h4>
                                 <small className="text-light">Intermediate</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <SiSpring className="experience-icon"/>
+                            <div>
+                                <h4>Spring</h4>
+                                <small className="text-light">Experienced</small>
                             </div>
                         </article>
                         <article className="experience__details">
